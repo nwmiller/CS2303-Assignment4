@@ -1,0 +1,33 @@
+Nathaniel Miller - nwmiller
+nwmiller@wpi.edu
+
+Assignment #4 readme:
+
+	Program Description:
+		This program's purpose is to demonstrate structures, formatted and raw I/0 usage and functions which operate using I/0 functions, dynamically-allocated memory using malloc, calloc, and free; structs, and functions that operate and manipulate the items mentioned beforehand. Creation, opening, closing, writing, and reading from files as well as binary files is also demonstrated.
+
+**NOTE**: I was unable to get part 5 working properly, and as a result part 6 does not return the proper results it should. In part 5, when writing to the binary file, random garbage data (string data/random chars, etc) get written into the file when the program is run. I am completely unsure how this is happened. I spent tons of time trying to fix this issue, asked on the discussion board, etc, but I was unable to fix the issue. To my knowledge, my writing function only should write the Employee's Name, Salary, and Department to the binary file and that is all. I was unable to diagnose where the garbage data was from. As a result, when the program for part 5 and part 6 are run, the results will not be as the should be. Part 6 returns garbage data as the Employee's data because that is what is being written into the binary file from Part 5 along with the correct Employee data. As far as I cant tell, the code should do what it's supposed to if the garbage data was not being written to the file. **** 
+
+Instructions:
+	1. Create directory for all assigment files. Or use an existing directory.
+	2. Copy or move all source files, including headers, makefile, and Doxyfile to 			created or existing directory.
+	3. In Terminal travel to directory that the files were copied or moved into.
+	4. Use the "make" (without quotes) command in Terminal in order to both 		compile all the .c files into .o files and to link them into the 			respective executables with their proper dependcies. See the makefile
+		for more detail.
+	5. To run the programs, use the following commands in Terminal:
+		Part 2: ./stest
+		Part 3: ./emptest
+		Part 4: ./readfile
+		Part 5: ./binaryfile
+		Part 6: ./printbin
+	6. To generate HTML files for the program and code documentation,
+		simply use the "make docs" (without quotes) command in Terminal.
+		This will generate all the necessary HTML files and copy them to the
+		public_html (make sure a directory "assig4" is in the public_html 			folder) folder. The HTML files should then be viewable online.
+
+
+Thanks.
+
+Nathaniel Miller
+nwmiller@wpi.edu
+WPI '14

@@ -1,0 +1,4 @@
+Employee. Name = Harry Palmer , Salary = 5000 , Department = N/A
+Employee. Name = Erik Grantby , Salary = 10000 , Department = N/A
+Employee. Name = Bobby Kotick , Salary = 90000 , Department = Managment
+Employee. Name = Ian Curran , Salary = 2000 , Department = Publishing

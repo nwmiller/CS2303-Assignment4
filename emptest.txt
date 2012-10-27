@@ -1,0 +1,1 @@
+Employee. Name = nate , Salary = 1010 , Department = cs
